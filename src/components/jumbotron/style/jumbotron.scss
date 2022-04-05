@@ -1,0 +1,59 @@
+.jumbotron{
+    width:85%;
+    margin: 0 auto;
+    
+    &_item{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &>div:nth-child(even){
+        
+        .jumboImg{
+            order: 1;
+        }
+    } 
+}
+
+.jumboImg{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+    
+}
+.jumboInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 40px;
+    &_name{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &_discription{
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0.7;
+        width: 80%;
+        margin-top: 20px;
+    }
+    &_price{
+        display: flex;
+        width: 25%;
+        justify-content: space-between;
+        font-weight: 500;
+        font-size: 26px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: flex-end;
+
+    }
+    .oldPrice{
+        text-decoration: line-through;
+        opacity: 0.5;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+}

@@ -1,0 +1,32 @@
+.showCase{
+    width: 85%;
+    margin: 0 auto;
+    &_header{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+color: #150101;
+    }
+    .nav{
+        width: 70%;
+        margin: 0 auto;
+    }
+    &_nav{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        li{
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 23px;
+
+color: #000000;
+
+opacity: 0.6;
+        }
+    
+    }
+}

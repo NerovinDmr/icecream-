@@ -1,0 +1,60 @@
+.reviews {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.comments {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  &_author {
+    display: flex;
+    &_info {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+  }
+}
+.author_name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.author_sign {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+.comment_text {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  width: 50%;
+  text-align: left;
+  margin-top: 20px;
+  b {
+    font-size: 20px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-weight: 900;
+    color: #f6762c;
+  }
+}
+.slider {
+  display: flex;
+  margin-top: 20px;
+}
+.slider_btn {
+  svg {
+    color: #d64374;
+  }
+}
+.prodactImg {
+  width: 50%;
+  img {
+    width: 100%;
+  }
+}

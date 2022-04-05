@@ -1,0 +1,29 @@
+{
+    "items":[
+        {
+            "id":1,
+            "name":"Brown bread",
+            "discription": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "price": 19.55,
+            "oldPrice":22.30,
+            "url":"/images/bh.png"
+        },
+        {
+            "id":2,
+            "name":"Cayenne chocolate",
+            "discription": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "price": 19.55,
+            "oldPrice":22.30,
+            "url":"/images/cc.png"
+        },
+        {
+            "id":3,
+            "name":"Sweet corn",
+            "discription": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "price": 19.55,
+            "oldPrice":22.30,
+            "url":"/images/sc.png"
+        }
+    ]
+
+}

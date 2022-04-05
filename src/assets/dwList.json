@@ -1,0 +1,21 @@
+{
+    "list":[
+            {
+                "id":1,
+                 "text":"Select Your Food",
+                 "url":"/images/pointer.png"
+            },
+            {
+                "id":2,
+                 "text":"Add To Cart",
+                 "url":"/images/cart.png"
+            },
+            {
+                "id":3,
+                 "text":"Order Your Food",
+                 "url":"/images/note.png"
+            }
+
+
+    ]
+}

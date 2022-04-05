@@ -1,0 +1,28 @@
+{
+    "rollItems":[
+        {
+            "id":1,
+            "name":"Free Shipping",
+            "url":"/images/Group1.png",
+            "discription":"Last Chance! Free shipping on all orders ends today"
+        },
+        {
+            "id":2,
+            "name":"Quick Packaging",
+            "url":"/images/Group.png",
+            "discription":"Last Chance! Free shipping on all orders ends today."
+        },
+        {
+            "id":3,
+            "name":"100% Money Back",
+            "url":"/images/cash-back.png",
+            "discription":"Last Chance! Free shipping on all orders ends today."
+        },
+        {
+            "id":4,
+            "name":"Fast Delivery",
+            "url":"/images/fast-delivery.png",
+            "discription":"Last Chance! Free shipping on all orders ends today."
+        }
+    ]
+}

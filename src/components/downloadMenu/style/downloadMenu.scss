@@ -1,0 +1,68 @@
+.dowmloadMenu {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.download_imgBlock {
+  width: 50%;
+  img {
+    width: 40%;
+  }
+}
+
+.download_infoBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.infoBlock_header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+}
+.infoBlock_discription {
+  width: 90%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+.infoBlock_list {
+  margin-top: 20px;
+  &_item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+}
+.list_img {
+  background-color: aliceblue;
+  width: 4%;
+  img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+}
+.list_links {
+  font-family: "Roboto";
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+.vendor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.google {
+  margin-top: 5px;
+}
+

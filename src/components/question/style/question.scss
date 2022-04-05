@@ -1,0 +1,31 @@
+.question{
+    width: 85%;
+    padding: 100px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+    &_header{
+         width: 40%;
+    }
+    &_input{
+        display: flex;
+        width: 85%;
+        justify-content: center;
+        margin-top: 20px;
+        
+        input{
+            height: 100%;
+            width: 100%;
+            background-color: #FAFAFA;
+            border: transparent;
+
+        }
+    }
+}
+.inputArea{
+    width: 40%;
+    
+}
